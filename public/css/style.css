@@ -1,3 +1,52 @@
-.primarytry {
-    background-color: red;
+/* Navigation */
+
+.primary_nav_wrap {
+    margin: 0 auto;
+	padding: 0;
+    margin-top: -25px;
+	background: #aa7755;
+}
+
+.primary_nav_wrap ul a
+{
+	display:block;
+	color:#ffccbb;
+	text-decoration:none;
+	text-shadow: 1px 1px 1px 1px #000;
+	font-weight: 520;
+	font-size:15px;
+	line-height:32px;
+	padding: 10px 40px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+.primary_nav_wrap ul li:hover
+{
+	background: #f6f6f6;
+	color: #444433;
+}
+
+/* Loogin and register button */
+
+.btn-lg-reg {
+    font-size: 15px;
+    margin-left: 5px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+/* Donation Button */
+
+.donation{
+    background-color: #c7831c;
+	border: none;
+	border-radius: 5px;
+    width: 90px;
+    text-align: center;
+}
+
+.donation a{
+    font-size: 14px;
+    font-family: arial;
+    font-weight: bold;
 }
