@@ -4,7 +4,7 @@
     margin: 0 auto;
 	padding: 0;
     margin-top: -1px;
-	/* margin-bottom: 1px; */
+	margin-bottom: 1px;
 	background: #aa7755;
 }
 
@@ -52,14 +52,42 @@
     font-weight: bold;
 }
 
-/* images */
+/* Images */
 
 .sun {
-	/* width: 100%;
-	height: 90%;
-	background-size: cover;
-    margin-top: -35px; */
-
 	width: 100%;
 	margin-top: -25px;
+}
+
+/* Paragraph */
+
+/* Live Stream */
+
+.content_up_right
+{
+	width: 445px;
+	height: 280px;
+	margin: 0;
+	float: right;
+	background: #ffffff;
+	border-radius: 10px;
+	color: #cc7755;
+	text-align: center;
+	box-shadow: -1px 1px 5px 1px #e0d0d0;
+	margin-top: -300px;
+}
+
+.corp {
+	/* background-color: red; */
+	justify-content: center;
+	margin: auto;
+	padding: 0px;
+	width: 980px;
+	height: auto;
+	font-family: verdana, arial, sans-serif;
+	border: 5px solid #ffffff;
+}
+
+.free {
+	padding-bottom: 300px;
 }
